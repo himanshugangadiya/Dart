@@ -2,13 +2,12 @@
 /// set is unordered
 /// unchangeable but add & remove elements
 /// faster then list while working
-
+/// Dart uses the Set<E> class to manage sets.
 void main() {
   Set set = {45, 78, 56, 23, 11, 0, 2};
   Set set1 = {10, 45, 12, 44, 85, 32, 75, 62, 78};
 
   /// properties
-
   print("length =======> ${set.length}");
   print("First element ========> ${set.first}");
   print("Last element ======>  ${set.last}");
